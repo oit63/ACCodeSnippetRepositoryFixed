@@ -25,7 +25,7 @@
   
   * [Xcode-Plugin-Template][Xcode-Plugin-Template]
   
-  * [updateXcodePluginsUUID][updateXcodePluginsUUID]
+  * [UpdateXcodePluginsUUID][updateXcodePluginsUUID]
   
   
    ![screenshots](Screenshots/screenshot02.png)
