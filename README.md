@@ -1,22 +1,24 @@
 # ACCodeSnippetRepositoryPlugin_Fixed
 
-This is a fixed edition for ACCodeSnippetRepositoryPlugin for support Xcode 7.2 and above.
+  This is a fixed edition for ACCodeSnippetRepositoryPlugin for support Xcode 7.2 and above.
 
-Fix issues:
-    1.Fix MenuItems (I move them to 'Source Control' menuItem); 
-    2.Fix Snippets Path (Because Xcode 7.2 no longer recognize snippets in subfolders, I change it to ../CodeSnippets/)
+## Fix issues:
+  1.Fix MenuItems (I move them to 'Source Control' menuItem); 
+  2.Fix Snippets Path (Because Xcode 7.2 no longer recognize snippets in subfolders, I change it to ../CodeSnippets/)
 
-Thanks to
-    https://github.com/acoomans/ACCodeSnippetRepositoryPlugin
-    https://github.com/kattrali/Xcode-Plugin-Template
-    https://github.com/homtang/updateXcodePluginsUUID
+### Thanks to
+  https://github.com/acoomans/ACCodeSnippetRepositoryPlugin
+  https://github.com/kattrali/Xcode-Plugin-Template
+  https://github.com/homtang/updateXcodePluginsUUID
 
-Appending my code snippets for ReactiveCocoa and PromiseKit are here
-    https://github.com/ForrestAlfred/ADCodeSnippet
-
-Following are the original author ![acoomans](https://github.com/acoomans) guide, noticing my fix issues above.
+### Appending my code snippets for ReactiveCocoa and PromiseKit are here
+  https://github.com/ForrestAlfred/ADCodeSnippet
     
-ACCodeSnippetRepositoryPlugin is a Xcode plugin for seemless synchronization of snippets with a git repository.
+  Following are the original author [acoomans][acoomans]'s guide, noticing my fix issues above.
+    
+  ACCodeSnippetRepositoryPlugin is a Xcode plugin for seemless synchronization of snippets with a git repository.
+
+[acoomans]: https://github.com/acoomans/  "Title"
 
 The snippets are synchronized as human-readable text (and not an obscure _.codesnippet_ plist).
 
