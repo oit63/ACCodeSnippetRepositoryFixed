@@ -8,8 +8,8 @@
 ## Fix issues:
     1.Fix MenuItems (I move them to 'Source Control' menuItem); 
   
-    2.Fix Snippets Path (Because Xcode 7.2 no longer recognize snippets in subfolders, 
-    I change it to ../CodeSnippets/ ).
+    2.Fix Snippets Path (Because Xcode 7.2 no longer recognize snippets in subfolders 
+    , and I change it to ../CodeSnippets/ to avoid conflicts).
 
 ### ReactiveCocoa and PromiseKit codesnippets from myself:
 
@@ -19,15 +19,14 @@
     
   [ACCodeSnippetRepositoryPlugin is a Xcode plugin for seemless synchronization of snippets with a git repository.][ACCodeSnippetRepositoryPlugin]
   
-  
 
 ### Thanks to
 
-  https://github.com/acoomans/ACCodeSnippetRepositoryPlugin
+  [ACCodeSnippetRepositoryPlugin][ACCodeSnippetRepositoryPlugin]
   
-  https://github.com/kattrali/Xcode-Plugin-Template
+  [Xcode-Plugin-Template][Xcode-Plugin-Template]
   
-  https://github.com/homtang/updateXcodePluginsUUID
+  [updateXcodePluginsUUID][updateXcodePluginsUUID]
   
   
   ![screenshots](Screenshots/screenshot02.png)
@@ -35,4 +34,6 @@
   
 [acoomans]: https://github.com/acoomans/  "Title"
 [ACCodeSnippetRepositoryPlugin]: https://github.com/acoomans/ACCodeSnippetRepositoryPlugin/  "Title"
+[Xcode-Plugin-Template]: https://github.com/kattrali/Xcode-Plugin-Template/  "Title"
+[updateXcodePluginsUUID]: https://github.com/homtang/updateXcodePluginsUUID/  "Title"
   
