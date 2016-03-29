@@ -14,7 +14,7 @@
 
 ### 2.ReactiveCocoa and PromiseKit codesnippets from myself:
 
-  https://github.com/ForrestAlfred/ADCodeSnippet
+  [ReactiveCocoa][ADCodeSnippet]
     
 ### 3.Follows the [acoomans][acoomans]'s guide, and noticing my fix issues above.
     
@@ -35,4 +35,6 @@
 [ACCodeSnippetRepositoryPlugin]: https://github.com/acoomans/ACCodeSnippetRepositoryPlugin/  "Title"
 [Xcode-Plugin-Template]: https://github.com/kattrali/Xcode-Plugin-Template/  "Title"
 [updateXcodePluginsUUID]: https://github.com/homtang/updateXcodePluginsUUID/  "Title"
+[ADCodeSnippet]: https://github.com/ForrestAlfred/ADCodeSnippet/  "Title"
+ 
   
