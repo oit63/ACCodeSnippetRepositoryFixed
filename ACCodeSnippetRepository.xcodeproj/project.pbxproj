@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51010E0218AC5CB1000AA1F1 /* ACGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 51010E0118AC5CB1000AA1F1 /* ACGitRepository.m */; };
+		51010E0318AC5CB1000AA1F1 /* ACGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 51010E0118AC5CB1000AA1F1 /* ACGitRepository.m */; };
+		5105B22718AC59520066728E /* NSTask+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105B22618AC59520066728E /* NSTask+Extras.m */; };
+		5105B22818AC59520066728E /* NSTask+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105B22618AC59520066728E /* NSTask+Extras.m */; };
+		5132BF3618AD5EE500C0DE83 /* ACCodeSnippetGitDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132BF3518AD5EE500C0DE83 /* ACCodeSnippetGitDataStoreTests.m */; };
+		5133D0D018AC5CF900998BE2 /* ACGitRepositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133D0CF18AC5CF900998BE2 /* ACGitRepositoryTests.m */; };
+		5153BAA918B3406D00C1E75B /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5153BAA818B3406D00C1E75B /* NSDictionary+Merge.m */; };
+		5153BAAA18B3406D00C1E75B /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5153BAA818B3406D00C1E75B /* NSDictionary+Merge.m */; };
+		5153BAAC18B3410C00C1E75B /* NSDictionary+MergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5153BAAB18B3410C00C1E75B /* NSDictionary+MergeTests.m */; };
+		5154068518AC4B500065CA33 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154068418AC4B500065CA33 /* SenTestingKit.framework */; };
+		5154068B18AC4B500065CA33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5154068918AC4B500065CA33 /* InfoPlist.strings */; };
+		515CE9DA18B1DCAA000962EA /* GitHub-Mark-120px-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CE9D718B1DCAA000962EA /* GitHub-Mark-120px-plus.png */; };
+		515CE9DB18B1DCAA000962EA /* GitHub-Mark-32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CE9D818B1DCAA000962EA /* GitHub-Mark-32px.png */; };
+		515CE9DC18B1DCAA000962EA /* GitHub-Mark-64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CE9D918B1DCAA000962EA /* GitHub-Mark-64px.png */; };
+		5162AC2A18AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162AC2818AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.m */; };
+		5162AC2B18AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5162AC2918AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.xib */; };
+		517DF2A618AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 517DF2A318AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m */; };
+		517DF2A718AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 517DF2A318AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m */; };
+		517DF2A818AC4BF1008980B3 /* Swizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 517DF2A518AC4BF1008980B3 /* Swizzler.m */; };
+		517DF2A918AC4BF1008980B3 /* Swizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 517DF2A518AC4BF1008980B3 /* Swizzler.m */; };
+		517E12C018AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E12BF18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m */; };
+		517E12C118AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E12BF18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m */; };
+		517FD2CE18AC4C70003E1813 /* ACCodeSnippetSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD2CD18AC4C70003E1813 /* ACCodeSnippetSerialization.m */; };
+		517FD2CF18AC4C70003E1813 /* ACCodeSnippetSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD2CD18AC4C70003E1813 /* ACCodeSnippetSerialization.m */; };
+		517FD2D118AC4C89003E1813 /* ACCodeSnippetSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FD2D018AC4C89003E1813 /* ACCodeSnippetSerializationTests.m */; };
+		518E69A318AC4A8900C57456 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518E69A218AC4A8900C57456 /* AppKit.framework */; };
+		518E69A518AC4A8900C57456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518E69A418AC4A8900C57456 /* Foundation.framework */; };
+		518E69AB18AC4A8900C57456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518E69A918AC4A8900C57456 /* InfoPlist.strings */; };
+		518E69AE18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 518E69AD18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.m */; };
+		51D2D55418AC58FD00493579 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D2D55318AC58FD00493579 /* NSString+Path.m */; };
+		51D2D55518AC590000493579 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D2D55318AC58FD00493579 /* NSString+Path.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5154068F18AC4B500065CA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518E699718AC4A8900C57456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518E699E18AC4A8900C57456;
+			remoteInfo = ACCodeSnippetRepository;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51010E0018AC5CB1000AA1F1 /* ACGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACGitRepository.h; sourceTree = "<group>"; };
+		51010E0118AC5CB1000AA1F1 /* ACGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACGitRepository.m; sourceTree = "<group>"; };
+		5105B22518AC59520066728E /* NSTask+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+Extras.h"; sourceTree = "<group>"; };
+		5105B22618AC59520066728E /* NSTask+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+Extras.m"; sourceTree = "<group>"; };
+		5132BF3518AD5EE500C0DE83 /* ACCodeSnippetGitDataStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetGitDataStoreTests.m; sourceTree = "<group>"; };
+		5133D0CF18AC5CF900998BE2 /* ACGitRepositoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACGitRepositoryTests.m; sourceTree = "<group>"; };
+		5153BAA718B3406D00C1E75B /* NSDictionary+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Merge.h"; sourceTree = "<group>"; };
+		5153BAA818B3406D00C1E75B /* NSDictionary+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Merge.m"; sourceTree = "<group>"; };
+		5153BAAB18B3410C00C1E75B /* NSDictionary+MergeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MergeTests.m"; sourceTree = "<group>"; };
+		5154068318AC4B500065CA33 /* ACCodeSnippetRepository Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACCodeSnippetRepository Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5154068418AC4B500065CA33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5154068818AC4B500065CA33 /* ACCodeSnippetRepository Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCodeSnippetRepository Tests-Info.plist"; sourceTree = "<group>"; };
+		5154068A18AC4B500065CA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5154068E18AC4B500065CA33 /* ACCodeSnippetRepository Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCodeSnippetRepository Tests-Prefix.pch"; sourceTree = "<group>"; };
+		515CE9D718B1DCAA000962EA /* GitHub-Mark-120px-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-120px-plus.png"; sourceTree = "<group>"; };
+		515CE9D818B1DCAA000962EA /* GitHub-Mark-32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-32px.png"; sourceTree = "<group>"; };
+		515CE9D918B1DCAA000962EA /* GitHub-Mark-64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-64px.png"; sourceTree = "<group>"; };
+		5162AC2718AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCodeSnippetRepositoryConfigurationWindowController.h; sourceTree = "<group>"; };
+		5162AC2818AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetRepositoryConfigurationWindowController.m; sourceTree = "<group>"; };
+		5162AC2918AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACCodeSnippetRepositoryConfigurationWindowController.xib; sourceTree = "<group>"; };
+		517D918E18AC4BA700A564B9 /* classdump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = classdump.txt; sourceTree = "<group>"; };
+		517D919018AC4BA700A564B9 /* IDE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDE.h; sourceTree = "<group>"; };
+		517D919118AC4BA700A564B9 /* IDECodeSnippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDECodeSnippet.h; sourceTree = "<group>"; };
+		517D919218AC4BA700A564B9 /* IDECodeSnippetLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDECodeSnippetLibrary.h; sourceTree = "<group>"; };
+		517D919318AC4BA700A564B9 /* IDECodeSnippetRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDECodeSnippetRepository.h; sourceTree = "<group>"; };
+		517DF2A218AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDECodeSnippetRepositorySwizzler.h; sourceTree = "<group>"; };
+		517DF2A318AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDECodeSnippetRepositorySwizzler.m; sourceTree = "<group>"; };
+		517DF2A418AC4BF1008980B3 /* Swizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzler.h; sourceTree = "<group>"; };
+		517DF2A518AC4BF1008980B3 /* Swizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzler.m; sourceTree = "<group>"; };
+		517DF2AE18AC4C1A008980B3 /* ACCodeSnippetDataStoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCodeSnippetDataStoreProtocol.h; sourceTree = "<group>"; };
+		517E12BE18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCodeSnippetGitDataStore.h; sourceTree = "<group>"; };
+		517E12BF18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetGitDataStore.m; sourceTree = "<group>"; };
+		517FD2CC18AC4C70003E1813 /* ACCodeSnippetSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCodeSnippetSerialization.h; sourceTree = "<group>"; };
+		517FD2CD18AC4C70003E1813 /* ACCodeSnippetSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetSerialization.m; sourceTree = "<group>"; };
+		517FD2D018AC4C89003E1813 /* ACCodeSnippetSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetSerializationTests.m; sourceTree = "<group>"; };
+		518E699F18AC4A8900C57456 /* ACCodeSnippetRepository.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACCodeSnippetRepository.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		518E69A218AC4A8900C57456 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		518E69A418AC4A8900C57456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		518E69A818AC4A8900C57456 /* ACCodeSnippetRepository-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCodeSnippetRepository-Info.plist"; sourceTree = "<group>"; };
+		518E69AA18AC4A8900C57456 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		518E69AC18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCodeSnippetRepositoryPlugin.h; sourceTree = "<group>"; };
+		518E69AD18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCodeSnippetRepositoryPlugin.m; sourceTree = "<group>"; };
+		518E69AF18AC4A8900C57456 /* ACCodeSnippetRepository-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCodeSnippetRepository-Prefix.pch"; sourceTree = "<group>"; };
+		519AC2B318B4257600F3B4EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		51D2D55218AC58FD00493579 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		51D2D55318AC58FD00493579 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5154068018AC4B500065CA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5154068518AC4B500065CA33 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E699C18AC4A8900C57456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518E69A318AC4A8900C57456 /* AppKit.framework in Frameworks */,
+				518E69A518AC4A8900C57456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5154068618AC4B500065CA33 /* ACCodeSnippetRepository Tests */ = {
+			isa = PBXGroup;
+			children = (
+				517FD2D018AC4C89003E1813 /* ACCodeSnippetSerializationTests.m */,
+				5133D0CF18AC5CF900998BE2 /* ACGitRepositoryTests.m */,
+				5132BF3518AD5EE500C0DE83 /* ACCodeSnippetGitDataStoreTests.m */,
+				5153BAAB18B3410C00C1E75B /* NSDictionary+MergeTests.m */,
+				5154068718AC4B500065CA33 /* Supporting Files */,
+			);
+			path = "ACCodeSnippetRepository Tests";
+			sourceTree = "<group>";
+		};
+		5154068718AC4B500065CA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5154068818AC4B500065CA33 /* ACCodeSnippetRepository Tests-Info.plist */,
+				5154068918AC4B500065CA33 /* InfoPlist.strings */,
+				5154068E18AC4B500065CA33 /* ACCodeSnippetRepository Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515CE9D518B1DCAA000962EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				515CE9D618B1DCAA000962EA /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		515CE9D618B1DCAA000962EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				515CE9D718B1DCAA000962EA /* GitHub-Mark-120px-plus.png */,
+				515CE9D818B1DCAA000962EA /* GitHub-Mark-32px.png */,
+				515CE9D918B1DCAA000962EA /* GitHub-Mark-64px.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5162AC2618AD9FB4000109C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5162AC2718AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.h */,
+				5162AC2818AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.m */,
+				5162AC2918AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		517D918D18AC4BA700A564B9 /* IDE */ = {
+			isa = PBXGroup;
+			children = (
+				517D918E18AC4BA700A564B9 /* classdump.txt */,
+				517D918F18AC4BA700A564B9 /* Headers */,
+				517DF2A118AC4BF1008980B3 /* Swizzle */,
+			);
+			path = IDE;
+			sourceTree = "<group>";
+		};
+		517D918F18AC4BA700A564B9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				517D919018AC4BA700A564B9 /* IDE.h */,
+				517D919118AC4BA700A564B9 /* IDECodeSnippet.h */,
+				517D919218AC4BA700A564B9 /* IDECodeSnippetLibrary.h */,
+				517D919318AC4BA700A564B9 /* IDECodeSnippetRepository.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		517DF2A118AC4BF1008980B3 /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				517DF2A418AC4BF1008980B3 /* Swizzler.h */,
+				517DF2A518AC4BF1008980B3 /* Swizzler.m */,
+				517DF2A218AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.h */,
+				517DF2A318AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m */,
+			);
+			path = Swizzle;
+			sourceTree = "<group>";
+		};
+		517DF2AA18AC4C1A008980B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				517DF2AD18AC4C1A008980B3 /* DataStores */,
+				517FD2CB18AC4C70003E1813 /* Serialization */,
+				51010E0018AC5CB1000AA1F1 /* ACGitRepository.h */,
+				51010E0118AC5CB1000AA1F1 /* ACGitRepository.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		517DF2AD18AC4C1A008980B3 /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				517DF2AE18AC4C1A008980B3 /* ACCodeSnippetDataStoreProtocol.h */,
+				517E12BE18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.h */,
+				517E12BF18AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m */,
+			);
+			path = DataStores;
+			sourceTree = "<group>";
+		};
+		517FD2CB18AC4C70003E1813 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				517FD2CC18AC4C70003E1813 /* ACCodeSnippetSerialization.h */,
+				517FD2CD18AC4C70003E1813 /* ACCodeSnippetSerialization.m */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		518E699618AC4A8900C57456 = {
+			isa = PBXGroup;
+			children = (
+				519AC2B318B4257600F3B4EA /* README.md */,
+				518E69A618AC4A8900C57456 /* ACCodeSnippetRepository */,
+				5154068618AC4B500065CA33 /* ACCodeSnippetRepository Tests */,
+				518E69A118AC4A8900C57456 /* Frameworks */,
+				518E69A018AC4A8900C57456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518E69A018AC4A8900C57456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518E699F18AC4A8900C57456 /* ACCodeSnippetRepository.xcplugin */,
+				5154068318AC4B500065CA33 /* ACCodeSnippetRepository Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518E69A118AC4A8900C57456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				518E69A218AC4A8900C57456 /* AppKit.framework */,
+				518E69A418AC4A8900C57456 /* Foundation.framework */,
+				5154068418AC4B500065CA33 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		518E69A618AC4A8900C57456 /* ACCodeSnippetRepository */ = {
+			isa = PBXGroup;
+			children = (
+				517D918D18AC4BA700A564B9 /* IDE */,
+				51D2D55118AC58FD00493579 /* Categories */,
+				517DF2AA18AC4C1A008980B3 /* Classes */,
+				5162AC2618AD9FB4000109C9 /* Controllers */,
+				515CE9D518B1DCAA000962EA /* Resources */,
+				518E69AC18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.h */,
+				518E69AD18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.m */,
+				518E69A718AC4A8900C57456 /* Supporting Files */,
+			);
+			path = ACCodeSnippetRepository;
+			sourceTree = "<group>";
+		};
+		518E69A718AC4A8900C57456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518E69A818AC4A8900C57456 /* ACCodeSnippetRepository-Info.plist */,
+				518E69A918AC4A8900C57456 /* InfoPlist.strings */,
+				518E69AF18AC4A8900C57456 /* ACCodeSnippetRepository-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D2D55118AC58FD00493579 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				51D2D55218AC58FD00493579 /* NSString+Path.h */,
+				51D2D55318AC58FD00493579 /* NSString+Path.m */,
+				5105B22518AC59520066728E /* NSTask+Extras.h */,
+				5105B22618AC59520066728E /* NSTask+Extras.m */,
+				5153BAA718B3406D00C1E75B /* NSDictionary+Merge.h */,
+				5153BAA818B3406D00C1E75B /* NSDictionary+Merge.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5154068218AC4B500065CA33 /* ACCodeSnippetRepository Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5154069318AC4B500065CA33 /* Build configuration list for PBXNativeTarget "ACCodeSnippetRepository Tests" */;
+			buildPhases = (
+				5154067F18AC4B500065CA33 /* Sources */,
+				5154068018AC4B500065CA33 /* Frameworks */,
+				5154068118AC4B500065CA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5154069018AC4B500065CA33 /* PBXTargetDependency */,
+			);
+			name = "ACCodeSnippetRepository Tests";
+			productName = "ACCodeSnippetRepository Tests";
+			productReference = 5154068318AC4B500065CA33 /* ACCodeSnippetRepository Tests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+		518E699E18AC4A8900C57456 /* ACCodeSnippetRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518E69B218AC4A8900C57456 /* Build configuration list for PBXNativeTarget "ACCodeSnippetRepository" */;
+			buildPhases = (
+				518E699B18AC4A8900C57456 /* Sources */,
+				518E699C18AC4A8900C57456 /* Frameworks */,
+				518E699D18AC4A8900C57456 /* Resources */,
+				11AE833A1CAABCC800EA6FB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACCodeSnippetRepository;
+			productName = ACCodeSnippetRepository;
+			productReference = 518E699F18AC4A8900C57456 /* ACCodeSnippetRepository.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518E699718AC4A8900C57456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arnaud Coomans";
+				TargetAttributes = {
+					5154068218AC4B500065CA33 = {
+						TestTargetID = 518E699E18AC4A8900C57456;
+					};
+				};
+			};
+			buildConfigurationList = 518E699A18AC4A8900C57456 /* Build configuration list for PBXProject "ACCodeSnippetRepository" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 518E699618AC4A8900C57456;
+			productRefGroup = 518E69A018AC4A8900C57456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518E699E18AC4A8900C57456 /* ACCodeSnippetRepository */,
+				5154068218AC4B500065CA33 /* ACCodeSnippetRepository Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5154068118AC4B500065CA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5154068B18AC4B500065CA33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E699D18AC4A8900C57456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515CE9DC18B1DCAA000962EA /* GitHub-Mark-64px.png in Resources */,
+				515CE9DB18B1DCAA000962EA /* GitHub-Mark-32px.png in Resources */,
+				5162AC2B18AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.xib in Resources */,
+				518E69AB18AC4A8900C57456 /* InfoPlist.strings in Resources */,
+				515CE9DA18B1DCAA000962EA /* GitHub-Mark-120px-plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11AE833A1CAABCC800EA6FB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n\n\n\nPLISTBUDDY=\"/usr/libexec/PlistBuddy\"\n\n\n\n\n#Get current Xcode DVTPlugInCompatibilityUUID\n\nUUID=$(defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID)\n\necho Xcode DVTPlugInCompatibilityUUID is $UUID\n\n\n\n\n#Traversal all plugins, and update UUID\n\nfor MyPlugin in ~/Library/Application\\ Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin/*\n                                                                                                                \n                                                                                                                do\n                                                                                                                \n                                                                                                                $PLISTBUDDY -c \"Add :DVTPlugInCompatibilityUUIDs: string $UUID\" \"$MyPlugin\"/Info.plist\n                                                                                                                \n                                                                                                                echo write DVTPlugInCompatibilityUUID to $MyPlugin succeed!\n                                                                                                                \n                                                                                                                done";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5154067F18AC4B500065CA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51010E0318AC5CB1000AA1F1 /* ACGitRepository.m in Sources */,
+				5153BAAC18B3410C00C1E75B /* NSDictionary+MergeTests.m in Sources */,
+				517DF2A718AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m in Sources */,
+				517FD2D118AC4C89003E1813 /* ACCodeSnippetSerializationTests.m in Sources */,
+				517E12C118AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m in Sources */,
+				517FD2CF18AC4C70003E1813 /* ACCodeSnippetSerialization.m in Sources */,
+				5105B22818AC59520066728E /* NSTask+Extras.m in Sources */,
+				5153BAAA18B3406D00C1E75B /* NSDictionary+Merge.m in Sources */,
+				51D2D55518AC590000493579 /* NSString+Path.m in Sources */,
+				517DF2A918AC4BF1008980B3 /* Swizzler.m in Sources */,
+				5132BF3618AD5EE500C0DE83 /* ACCodeSnippetGitDataStoreTests.m in Sources */,
+				5133D0D018AC5CF900998BE2 /* ACGitRepositoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E699B18AC4A8900C57456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51010E0218AC5CB1000AA1F1 /* ACGitRepository.m in Sources */,
+				518E69AE18AC4A8900C57456 /* ACCodeSnippetRepositoryPlugin.m in Sources */,
+				517DF2A618AC4BF1008980B3 /* IDECodeSnippetRepositorySwizzler.m in Sources */,
+				5162AC2A18AD9FD0000109C9 /* ACCodeSnippetRepositoryConfigurationWindowController.m in Sources */,
+				517E12C018AC5F8A0072B743 /* ACCodeSnippetGitDataStore.m in Sources */,
+				5153BAA918B3406D00C1E75B /* NSDictionary+Merge.m in Sources */,
+				517DF2A818AC4BF1008980B3 /* Swizzler.m in Sources */,
+				517FD2CE18AC4C70003E1813 /* ACCodeSnippetSerialization.m in Sources */,
+				5105B22718AC59520066728E /* NSTask+Extras.m in Sources */,
+				51D2D55418AC58FD00493579 /* NSString+Path.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5154069018AC4B500065CA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518E699E18AC4A8900C57456 /* ACCodeSnippetRepository */;
+			targetProxy = 5154068F18AC4B500065CA33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5154068918AC4B500065CA33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5154068A18AC4B500065CA33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		518E69A918AC4A8900C57456 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518E69AA18AC4A8900C57456 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5154069118AC4B500065CA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCodeSnippetRepository Tests/ACCodeSnippetRepository Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ACCodeSnippetRepository Tests/ACCodeSnippetRepository Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acoomans.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5154069218AC4B500065CA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCodeSnippetRepository Tests/ACCodeSnippetRepository Tests-Prefix.pch";
+				INFOPLIST_FILE = "ACCodeSnippetRepository Tests/ACCodeSnippetRepository Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acoomans.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		518E69B018AC4A8900C57456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		518E69B118AC4A8900C57456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		518E69B318AC4A8900C57456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCodeSnippetRepository/ACCodeSnippetRepository-Prefix.pch";
+				INFOPLIST_FILE = "ACCodeSnippetRepository/ACCodeSnippetRepository-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acoomans.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		518E69B418AC4A8900C57456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCodeSnippetRepository/ACCodeSnippetRepository-Prefix.pch";
+				INFOPLIST_FILE = "ACCodeSnippetRepository/ACCodeSnippetRepository-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acoomans.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5154069318AC4B500065CA33 /* Build configuration list for PBXNativeTarget "ACCodeSnippetRepository Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5154069118AC4B500065CA33 /* Debug */,
+				5154069218AC4B500065CA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518E699A18AC4A8900C57456 /* Build configuration list for PBXProject "ACCodeSnippetRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E69B018AC4A8900C57456 /* Debug */,
+				518E69B118AC4A8900C57456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518E69B218AC4A8900C57456 /* Build configuration list for PBXNativeTarget "ACCodeSnippetRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E69B318AC4A8900C57456 /* Debug */,
+				518E69B418AC4A8900C57456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518E699718AC4A8900C57456 /* Project object */;
+}
